@@ -24,10 +24,10 @@ class App extends Component {
     setClicked = id => {
 
         // Make a copy of the state matches array to work with
-        const matches = this.state.matches;
+        let matches = this.state.matches;
 
         // Filter for the clicked match
-        const clickedMatch = matches.filter(match => match.id === id);
+        let clickedMatch = matches.filter(match => match.id === id);
 
         // If the matched image's clicked value is already true, 
         // do the game over actions

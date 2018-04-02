@@ -8,7 +8,7 @@ class Header extends Component {
         <div className="Header">
           
         <header className="App-header">
-          <h1 className="App-title">React(ive) Gaming</h1>
+          <h1 className="App-title"><span>React</span>(ive) Gaming</h1>
         </header>
 
         </div>

@@ -8,7 +8,7 @@ class Footer extends Component {
         <div className="Footer">
           
         <footer className="App-footer">
-          <h5>Miguel Woroniak</h5>
+          <h5>© 2018 Miguel W.</h5>
         </footer>
 
         </div>
